@@ -1,0 +1,211 @@
+@font-face{
+  src: url('./fonts/NunitoSans-Bold.ttf');
+  font-family: 'NunitoSans-Bold';  
+}
+@font-face{
+  src: url('./fonts/NunitoSans-Italic.ttf');
+  font-family: 'NunitoSans-Italic';  
+}
+@font-face{
+  src: url('./fonts/NunitoSans-Regular.ttf');
+  font-family: 'NunitoSans-Regular'; 
+}
+@font-face{
+  src: url('./fonts/BlackOpsOne-Regular.ttf');
+  font-family: 'BlackOpsOne-Regular';  
+}
+@font-face{
+  src: url('./fonts/Anton-Regular.ttf');
+  font-family: 'Anton-Regular';  
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+body{
+  background-color:whitesmoke;
+  margin: 0;
+  font-family: 'NunitoSans-Regular';
+}
+body * {
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1250px;
+  margin: 0 auto ;
+}
+.header{
+  background-color: black;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+}
+.logo{
+  font-family: 'BlackOpsOne-Regular';
+  font-size: 15px;
+  line-height: 10px;
+  color:rgb(243, 53, 6);
+}
+
+.header-navigation{
+  list-style: none;
+  display: flex;
+}
+.header-navigation__item{
+  margin-right: 47px;
+  font-size: 15px;
+  line-height: 15px;
+}
+.header-navigation__item a {
+  text-decoration: none;
+  color:rgb(243, 243, 243);
+  font-family: 'Anton-Regular';
+
+}
+.header-navigation__item a:hover{
+color: red;
+text-decoration-line: underline;
+content: "";
+transition: width .3s;
+}
+
+.header__contact{
+  font-size: 11px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  font-family: 'BlackOpsOne-Regular';
+  color: rgb(243, 53, 6);
+}
+
+.discord{
+  display: flex;
+  width: 2%;
+}
+.header__discord{
+  cursor: pointer;
+
+}
+
+.button{
+  cursor: pointer;
+  font-family: 'BlackOpsOne-Regular';
+  background: rgb(231, 15, 15);
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  color:white;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+img {
+    width: 100%; 
+  }
+  
+  .sim-slider {
+    max-width: 700px;
+    min-width: 320px;
+    margin: 20px auto;
+    padding: 30px 50px;
+    border: 1px solid rgb(211, 206, 206);
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+  
+  .sim-slider {
+    position: relative;
+  }
+  
+  .sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sim-slider-element {
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+  
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    text-align: center;
+  }
+  
+  span.sim-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: rgb(235, 19, 19);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .footer{
+      background-color: black;
+    }
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+  }
+  .footer-navigation{
+    list-style: none;
+    display: flex;
+  }
